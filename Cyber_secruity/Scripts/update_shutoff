@@ -1,0 +1,23 @@
+#!/bin/bash
+echo "Howdy, want to update and upgrade?"
+read in
+if [ $in == 'y' ]; then
+	sudo apt update && sudo apt upgrade
+else
+	echo "No problem"
+fi
+
+echo "Clean out old files?"
+read in
+if [ $in == 'y' ]; then
+	sudo apt autoclean
+fi
+
+
+echo " Do you want to shutdown?"
+read in
+if [ $in == 'y' ]; then
+	sudo shutdown now
+else
+	echo "Bye"
+fi
