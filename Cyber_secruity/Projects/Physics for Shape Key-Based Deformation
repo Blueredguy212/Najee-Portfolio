@@ -1,0 +1,35 @@
+Using Physics for Shape-Key-Based Deformation 
+To use physics for animating, we first need to go into scope. Let's say you want a soft fleshy object to deform naturally to an object, we can use physics for that.
+
+First:
+ Get your object, and go to shape keys, make your default shape key.
+
+Step Two :
+Go into the blender, modifiers for your object and set a cloth modifier for your object.(AKA cloth object)
+Go to physics and edit how you want the cloth to function, things like stiffness, bounce etc.
+
+Step Three: 
+Make your object that will cause the deform(aka deformer object), go to the physics of that object and give a rigidbody.
+
+Step Four:
+All your prepping is done at this point, we can now go down to the timeline. We are going to simulate physics. Start at frame zero and make a frame for your deformer object. Go to another frame, try like 35.Then move, shrink or grow the deformer object. in such a way it will hit your cloth object, For me I will just put the deformer object on the other side of the cloth object. Make a key frame, then play the timeline.
+
+Step Five:
+From here the deformer object will crash into your cloth object, making it deform. The timeline can not be used to choose a frame to see what kind of deformation is appropriate. From there you can click on your cloth object and go to modifiers, you are going to apply the cloth modifier as a new shape key. Click on the arrow and hit save as shape key. 
+
+Step Six:
+ Go back to your shape key and you should see something along the lines of cloth.001 change the name to something appropriate and you are done, you can now add as many shape keys as you want.
+
+FAQ
+My cloth objects keep falling.
+	You need to create a vertex group by going to edit mode. Go to your cloth object, go to vertices, and make a new vertex group. Find vertices are points you want to hold the object on, and Shift click them, then add to the vertex group. From here go to the physics of the cloth and go down to vertices and add your new group. Your soft body will not hover from that point.
+
+I'm so lost on what's going on?
+Make sure you have basic blender keys, how to transform objects, how to move objects in viewport, how to change viewport, and how to select objects. Google basic blender for more help.
+
+Can I animate the shape key?
+Yes you can, but make sure your animations will work for every shape key. So if you make your cloth body massive or small, the animation will try to play on all of them; this may or may not make a problem. A simple solution is to have a naming structure that follows your shape keys. IE if i have  smashed_apple shape key, make the animation, smashed apple_anim.
+
+Why should I use this?
+This is a fast and easy way to immediately improve your animations. Instead of hand carving every vertex in every frame, a tiny bit of preptime can be used to make a high quality animation/model in a few minutes.
+
