@@ -1,0 +1,11 @@
+This folder contains the original PCAP file, a summary of the captured network traffic, and the full analysis report based on that data.
+
+The following questions were addressed during the PCAP analysis:
+
+What is the MAC address of the computer at 10.10.10.201?
+What is the host name of the computer at 10.10.10.201?
+What is the Microsoft Windows version (XP, 7, 8, or 10) of the computer at 10.10.10.201?
+At what time did the torrent activity from 10.10.10.201 begin?
+Which torrent file did the user at 10.10.10.201 download?
+What is the name of the torrent client used on 10.10.10.201?
+What file is being seeded (shared) by the torrent client on 10.10.10.201?
