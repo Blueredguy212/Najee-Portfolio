@@ -1,0 +1,49 @@
+# Cyber Range Team Roles
+
+## Overview
+This project was completed as part of a team-based cyber range environment, where each member was assigned specific responsibilities to simulate a real-world IT and cybersecurity team structure.
+
+---
+
+## Team Structure
+
+### Security Analyst
+**Role:** TB  
+- Monitored and identified potential security threats  
+- Assisted in vulnerability identification and risk awareness  
+
+---
+
+### Network Administrator
+**Role:** CJ  
+- Managed and configured network infrastructure  
+- Assisted with VLAN setup and network connectivity  
+
+---
+
+### Systems Administrator
+**Role:** KC  
+- Maintained and configured server systems  
+- Ensured system stability and proper deployment  
+
+---
+
+### DevOps / SysOps
+**Role:** Najee Gaston  
+- Assisted in automation and system configuration  
+- Researched and implemented CLI-based solutions  
+- Supported deployment and troubleshooting across systems  
+
+---
+
+### Documentation & Audit Lead
+**Role:** Najee Gaston (with team support)  
+- Documented configurations, processes, and findings  
+- Maintained records of system setup and security measures  
+- Ensured all work was properly recorded and organized  
+
+---
+
+## Key Takeaway
+
+This team structure mirrors a real-world IT/security environment, where collaboration between specialized roles is essential for building, maintaining, and securing infrastructure.
